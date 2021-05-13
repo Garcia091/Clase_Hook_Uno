@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FormExample from './components/FormExample';
+import Api from './components/Api';
+//import FormExample from './components/FormExample';
 //import CounterDos from './components/CounterDos';
 //import CounterUno from './components/CounterUno';
 //import App from './App';
@@ -8,7 +9,7 @@ import FormExample from './components/FormExample';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormExample />
+    < Api/>
   </React.StrictMode>,
   document.getElementById('root')
 );
